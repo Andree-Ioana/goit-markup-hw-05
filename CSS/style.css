@@ -302,14 +302,60 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin: 0 auto;
 }
-.desktop{
+
+.thumb{
+  position: relative;
+}
+
+.thumb > .label {
   position: absolute;
-  width: 370px;
-  height: 70px;
-  top: 1489px;
-  left: 279px;  
+  top: 240px;
+
+  margin: 0;
+  padding: 8px 16px;
+  border: 1px solid  #2F303ACC;
+  padding: 18px 130.9px;
   background: #2F303ACC;
+  font-family: var(--heading-font-family);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+.thumb > .label1 {
+  position: absolute;
+  top: 240px;
+
+  margin: 0;
+  padding: 8px 16px;
+  border: 1px solid  #2F303ACC;
+  padding: 18px 136.5px;
+  background: #2F303ACC;
+  font-family: var(--heading-font-family);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+.thumb > .label2 {
+  position: absolute;
+  top: 236px;
+   padding: 20px 116px;
+  margin: 0;
+  
+  border: 1px solid  #2F303ACC;
+  
+  background: #2F303ACC;
+  font-family: var(--heading-font-family);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
 }
 .suggestive-images p{
   color: #ffffff;
@@ -321,23 +367,8 @@ h2 {
   justify-content: center;
   padding-top: 12px;
 }
-.mobile{
-  position: absolute;
-  width: 370px;
-  height: 70px;
-  top: 1489px;
-  left: 679px;  
-  background: #2F303ACC;
-}
 
-.design{
-    position: absolute;
-    width: 370px;
-height: 70px;
-top: 1489px;
-left: 1079px;
-    background: #2F303ACC;
-}
+
 .our-team {
   background-color: #f5f4fa;
   display: flex;
